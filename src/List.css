@@ -1,0 +1,58 @@
+/* List.css */
+
+.list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .list input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .list li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .list li:hover {
+    transform: scale(1.05);
+  }
+  
+  .list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .list h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .list p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  

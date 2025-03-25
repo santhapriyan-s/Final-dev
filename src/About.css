@@ -1,0 +1,64 @@
+/* About.css */
+
+.about {
+    padding: 60px 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background for the about section */
+    color: #333; /* Dark text for readability */
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f1c40f; /* Gold color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555; /* Slightly lighter text for paragraphs */
+  }
+  
+  .about p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Add a button for a call-to-action (optional) */
+  .about .cta-button {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .about .cta-button:hover {
+    background-color: #e0b90f; /* Darker gold color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about h1 {
+      font-size: 2rem;
+    }
+  
+    .about p {
+      font-size: 1rem;
+    }
+  }
+  
